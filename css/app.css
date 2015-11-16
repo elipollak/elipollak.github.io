@@ -1,0 +1,48 @@
+body {
+	background: url(../img/homepage_background.png) no-repeat center center fixed;
+	background-color: rgba(36,35,34,0.6);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: auto;
+	overflow: scroll;
+}
+
+.header{
+	margin-top: 100px;
+}
+
+#header-text {
+	color: rgb(245, 245, 245);
+	cursor: auto;
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+	height: auto;
+	letter-spacing: normal;
+	line-height: 58.5px;
+	font-weight: lighter;
+}
+
+.social-icons-row {
+	padding-top: 130px;
+	padding-bottom: 10px;
+}
+
+.social-icons {
+	font-size: 3em;
+	color: rgb(245, 245, 245);
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+@media only screen and (max-width: 40em) { 
+	.header{
+		margin-top: 50px;
+	}
+	.social-icons-row {
+		padding-top: 50px;
+		padding-bottom: 10px;
+	}
+}
